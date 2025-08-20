@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(85, 145, 229);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+}
+
+.picture {
+    width: 100px;
+    height: 100px;
+}
