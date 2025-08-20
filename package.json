@@ -28,7 +28,7 @@
     "build": "webpack --config webpack.prod.js",
     "test": "jest",
     "coverage": "jest --coverage",
-     "lint": "eslint src",
+     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
   "lint:fix": "eslint --fix"
   },
   "dependencies": {
