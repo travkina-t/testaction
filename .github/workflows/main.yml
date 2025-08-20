@@ -28,10 +28,10 @@ jobs:
         with:
           node-version: 22.14.0
           cache: 'yarn'
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
+      - name: Install modules
+        run: yarn
       - name: Run ESLint
-        run: yarn lint --no-cache
+        run: eslint . --ext .js,.jsx,.ts,.tsx
   test:
     runs-on: ubuntu-latest
 
